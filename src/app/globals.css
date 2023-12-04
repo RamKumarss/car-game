@@ -25,3 +25,26 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@keyframes moveUpDown {
+  0% {
+    display: block;
+    top: -100px;
+  }
+  95% {
+    top: 105%;
+    display: none;
+  }
+  100% {
+    display: none;
+    top: -100px;
+  }
+}
+
+.move-white-line {
+  animation: moveUpDown 1s infinite linear;
+}
+
+.move-enemy-car {
+  animation: moveUpDown 1s infinite linear;
+}
