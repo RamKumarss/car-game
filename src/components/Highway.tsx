@@ -134,6 +134,7 @@ const Highway = () => {
         </div>
       ) : (
         <div className='w-full flex justify-center items-center h-screen flex-col'>
+          <h1 className='font-extrabold text-4xl mb-6 text-red-500'>Game Over</h1>
           <h1 className='font-bold mb-4'>Your Score : {score}</h1>
           <button
             className='rounded-lg bg-green-500 p-4 text-white'
